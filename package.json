@@ -1,7 +1,7 @@
 {
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "NODE_ENV=development tsx start.ts",
     "build": "next build",
     "start": "tsx start.ts"
   },
